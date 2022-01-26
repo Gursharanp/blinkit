@@ -1,7 +1,5 @@
 export const SliderData=[
-{
-    image:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=954,h=477/layout-engine/automation/pb_Brand_nutrition_nestle_710.jpg?61f0ba959d7d5'
-},
+
 {
     image:'https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=631,h=316/layout-engine/automation/pb_Brand_Wingreen%2BRaw_Wingreen_652.jpg?61f0baac2d3a8'
 },
