@@ -1,0 +1,111 @@
+*{
+    font-family: sans-serif;
+}
+.body{
+    height: 100%;
+    width:100%;
+}
+.headbar{
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    height:65px;
+    background-color: rgb(255,225,65);
+}
+.headbar .icon{
+    width:120px;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.icon img{
+    height:60%;
+    margin: 5px;
+}
+
+.headbar .address{
+width:300px;
+display: flex;
+align-items: center;
+}
+.headbar .address .aicon{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: turquoise;
+margin-left: 10px;
+}
+
+.headbar .address .addhead{
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.headbar .address .addfoot{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.headbar .search{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    
+}
+.headbar .search .sicon{
+    position: absolute;
+    left: 30px;
+    color: silver;
+    font-size: 20px;
+}
+.headbar .search input{
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+    margin: 20px;
+    height: 40px;
+    padding-left:50px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+.headbar .category{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    
+}
+.headbar .login{
+    
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80px;
+}
+.headbar .my-cart{
+    width:140px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.headbar .my-cart button{
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-radius: 12px;
+    background-color: rgb(69,146,32);
+    border: none;
+}
+
+.headbar .my-cart button i{
+    margin-right: 5px;
+}
+
