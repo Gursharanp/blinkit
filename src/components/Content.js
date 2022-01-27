@@ -1,7 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {SliderData} from './SliderData';
 import styles from '../style/Content.module.css'
 import ImageSlider from './ImageSlider';
+import ContentBreakfast from './ContentBreakfast';
 export default function Content() {
   return ( 
   
@@ -32,18 +34,22 @@ export default function Content() {
               <div className={styles.tt1}> fruits & vegetables </div>
               <div className={styles.tt2}>eat fresh,stay healthy</div>
           </div>
+          <ContentBreakfast/>
       </div>
       <div className={styles.p2}>
           <div className={styles.text2}>
+
               <div className={styles.tt1}> chemist store </div>
               <div className={styles.tt2}>get pain relievers,dettol and more</div>
           </div>
+          <ContentBreakfast/>
       </div>
       <div className={styles.p3}>
           <div className={styles.text3}>
               <div className={styles.tt1}> breakfast & dairy </div>
               <div className={styles.tt2}>butter ,cheese, milk, curd and more</div>
-          </div>
+        </div>
+        <ContentBreakfast/>
       </div>
   </div>
   

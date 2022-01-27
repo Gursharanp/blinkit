@@ -1,11 +1,11 @@
 .main{
-    /* overflow-y: auto;    */
+    overflow-y: auto;   
     margin-left: 30px;
     margin-right: 20px;
     /* background-color : violet; */
     display: grid;
-    height: 100%;
-    grid-template-rows: 200px 200px 500px 200px 200px 200px ;
+    /* height: 100%; */
+    grid-template-rows: 200px 200px 500px 350px 350px 350px ;
     row-gap: 10px;
     padding-top: 65px;
 }
@@ -29,6 +29,7 @@ column-gap: 5px;
 }
 .main .p1 .text1 .tt2{
     color: gray;
+    margin-bottom: 20px;
 }
 
 .main .p2 .text2 .tt1{
@@ -37,6 +38,7 @@ column-gap: 5px;
 }
 .main .p2 .text2 .tt2{
     color: gray;
+    margin-bottom: 20px;
 }
 
 .main .p3 .text3 .tt1{
@@ -45,4 +47,6 @@ column-gap: 5px;
 }
 .main .p3 .text3 .tt2{
     color: gray;
+    margin-bottom: 20px;
 }
+

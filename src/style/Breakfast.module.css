@@ -1,0 +1,16 @@
+.breakfastprod{
+    height:250px;
+    width:150px;
+    border-radius: 8px;
+    outline: 1px solid lightgrey;
+    margin-right: 10px;
+    position: relative;
+}
+.headerbreakfast{
+    height: 60%;
+    background-color: lightsalmon;
+}
+.breakfastprod .breakbtn{
+    position: absolute;
+    right:5px;
+}

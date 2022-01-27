@@ -17,7 +17,7 @@ export default function Header() {
             <div className='search'>
                     
                 <input type="search"  placeholder='Search for products'/>
-                <div className='sicon'> <i class="fa fa-search"></i></div>
+                <div className='sicon'> <i className="fa fa-search"></i></div>
                 
             </div>
             <div className='category'>
@@ -28,7 +28,7 @@ export default function Header() {
             </div>
             <div className='my-cart'>
                 <button>
-                <i class="fa fa-shopping-cart"></i>
+                <i className="fa fa-shopping-cart"></i>
                     my Cart
                 </button>
             </div>
