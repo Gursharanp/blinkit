@@ -1,0 +1,22 @@
+.main{
+    overflow-y: auto;
+    margin-left: 30px;
+    margin-right: 20px;
+    /* background-color : violet; */
+    display: grid;
+    height: 100%;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    row-gap: 10px;
+    padding-top: 65px;
+}
+.main .offerimg{
+    width:100%;
+}
+.main .offerimg img{
+    width: 99%;
+}
+.main .p1img{
+display: grid;
+grid-template-columns: 4fr 4fr 4fr 4fr;
+column-gap: 5px;
+}
