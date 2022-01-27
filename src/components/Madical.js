@@ -1,8 +1,6 @@
 import React from 'react';
-import styles from '../style/Breakfast.module.css'
-// export default function Breakfast() {
-    export default function Breakfast({name,image,price,id,weight}) {
-
+import styles from '../style/Madical.module.css'
+export default function Madical({name,image,price,id,Unit}) {
     return (
         <div className={styles.breakfastprod}>
             <div className={styles.headerbreakfast}>
@@ -16,7 +14,7 @@ import styles from '../style/Breakfast.module.css'
             </div>
 
             <div className={styles.breakweight}>
-                Weight:{ weight}
+                Units:{ Unit}
             </div>
             <div className={styles.price}>
                 Rs.{ price}
@@ -27,5 +25,4 @@ import styles from '../style/Breakfast.module.css'
             </div>
 
         </div >)
-
 }

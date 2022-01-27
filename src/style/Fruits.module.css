@@ -15,14 +15,15 @@
     position: absolute;
     right:5px;
     bottom:100px;
+    
 }
 .breakfastprod .breakbtn button{
     cursor: pointer;
 }
 .headerbreakfast img{
-    cursor: pointer;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 .breakfastprod .breakweight{
     color: grey;

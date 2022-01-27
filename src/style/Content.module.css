@@ -8,9 +8,11 @@
     grid-template-rows: 200px 200px 500px 350px 350px 350px ;
     row-gap: 10px;
     padding-top: 65px;
+    
 }
 .main .offerimg{
     width:100%;
+    cursor: pointer;
 }
 .main .offerimg img{
     width: 99%;
@@ -19,13 +21,14 @@
 display: grid;
 grid-template-columns: 4fr 4fr 4fr 4fr;
 column-gap: 5px;
+cursor: pointer;
 }
 .main .slides{
     margin-top: 10px;
 }
 .main .p1 .text1 .tt1{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold;  
 }
 .main .p1 .text1 .tt2{
     color: gray;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 export default function Header() {
     return (
 
@@ -23,9 +23,11 @@ export default function Header() {
             <div className='category'>
                  categories
             </div>
+            <Link to="/Login">
             <div className='login'>
-                   login
+                 Login    
             </div>
+            </Link>
             <div className='my-cart'>
                 <button>
                 <i className="fa fa-shopping-cart"></i>

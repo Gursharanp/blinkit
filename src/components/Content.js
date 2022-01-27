@@ -4,6 +4,8 @@ import {SliderData} from './SliderData';
 import styles from '../style/Content.module.css'
 import ImageSlider from './ImageSlider';
 import ContentBreakfast from './ContentBreakfast';
+import ContentFruits from './ContentFruits';
+import ContentMadical from './ContentMadical';
 export default function Content() {
   return ( 
   
@@ -34,7 +36,7 @@ export default function Content() {
               <div className={styles.tt1}> fruits & vegetables </div>
               <div className={styles.tt2}>eat fresh,stay healthy</div>
           </div>
-          <ContentBreakfast/>
+          <ContentFruits/>
       </div>
       <div className={styles.p2}>
           <div className={styles.text2}>
@@ -42,7 +44,7 @@ export default function Content() {
               <div className={styles.tt1}> chemist store </div>
               <div className={styles.tt2}>get pain relievers,dettol and more</div>
           </div>
-          <ContentBreakfast/>
+          <ContentMadical/>
       </div>
       <div className={styles.p3}>
           <div className={styles.text3}>
