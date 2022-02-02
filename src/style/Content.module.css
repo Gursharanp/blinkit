@@ -27,6 +27,7 @@ cursor: pointer;
     margin-top: 10px;
 }
 .main .p1 .text1 .tt1{
+    color: black;
     font-size: 20px;
     font-weight: bold;  
 }

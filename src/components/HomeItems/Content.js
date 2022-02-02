@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {SliderData} from './SliderData';
-import styles from '../style/Content.module.css'
-import ImageSlider from './ImageSlider';
-import ContentBreakfast from './ContentBreakfast';
-import ContentFruits from './ContentFruits';
-import ContentMadical from './ContentMadical';
+import {SliderData} from '../SliderItems/SliderData';
+import styles from '../../style/Content.module.css'
+import ImageSlider from '../SliderItems/ImageSlider'
+import ContentBreakfast from '../BreackFastItems/ContentBreakfast';
+import ContentFruits from '../FruitsItems/ContentFruits';
+import ContentMadical from '../MedicalItems/ContentMadical';
+import FruitsSing from '../FruitItemsSinglepage/FruitsSing';
 export default function Content() {
   return ( 
   
@@ -33,7 +34,7 @@ export default function Content() {
       </div>
       <div className={styles.p1}>
           <div className={styles.text1}>
-              <div className={styles.tt1}> fruits & vegetables </div>
+             <Link to='/FruitsSing'> <div className={styles.tt1}> fruits & vegetables </div></Link>
               <div className={styles.tt2}>eat fresh,stay healthy</div>
           </div>
           <ContentFruits/>

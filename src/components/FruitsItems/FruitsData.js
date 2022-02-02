@@ -5,7 +5,7 @@ const FruitsData=[
         weight:'1kg',
         price:'187',
         image:'https://5.imimg.com/data5/LM/DU/MY-22954806/apple-fruit-500x500.jpg',
-        coutInStock:'20'
+        countInStock:'20'
     },
     {
         id:'2',
@@ -13,7 +13,7 @@ const FruitsData=[
         weight:'1kg',
         price:'200',
         image:'https://5.imimg.com/data5/VN/YP/MY-33296037/orange-600x600-500x500.jpg',
-        coutInStock:'13'
+        countInStock:'13'
     },
     {
         id:'3',
@@ -21,7 +21,7 @@ const FruitsData=[
         weight:'1kg',
         price:'15',
         image:'https://m.media-amazon.com/images/I/61yXL70-RaL._SX679_.jpg',
-        coutInStock:'200'
+        countInStock:'200'
     },
     {
         id:'4',
@@ -29,7 +29,7 @@ const FruitsData=[
         weight:'1kg',
         price:'35',
         image:'https://m.media-amazon.com/images/I/71G2ZJO50+L._SL1500_.jpg',
-        coutInStock:'150'
+        countInStock:'150'
     },
     {
         id:'5',
@@ -37,7 +37,7 @@ const FruitsData=[
         weight:'1kg',
         price:'350',
         image:'https://im.indiatimes.in/content/2012/Jul/1499029_1437661155.jpg?w=1200&h=900&cc=1',
-        coutInStock:'170'
+        countInStock:'170'
     
     },
     {
@@ -45,7 +45,7 @@ const FruitsData=[
         name:'Tomato',
         weight:'1kg',
         price:'30',
-        coutInStock:'260',
+        countInStock:'260',
         image:'https://m.media-amazon.com/images/I/71DYmqoq-VL._SL1024_.jpg'
     },
     {
@@ -54,7 +54,7 @@ const FruitsData=[
         weight:'3 units',
         price:'23',
         image:'https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2018/08/bananas-1354785_1920-1200x800.jpg',
-        coutInStock:'80'
+        countInStock:'80'
     }
     
     ]

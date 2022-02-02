@@ -12,8 +12,8 @@ export default function ContentMadical() {
           name={breakfastprod.name}
           id={breakfastprod.id}
           price={breakfastprod.price}
-          weight={breakfastprod.weight}
-          image={breakfastprod.image}/>
+          image={breakfastprod.image}
+          countInStock={breakfastprod.countInStock}/>
         )
       })
     }

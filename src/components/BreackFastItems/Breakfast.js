@@ -1,7 +1,16 @@
-import React from 'react';
-import styles from '../style/Breakfast.module.css'
-// export default function Breakfast() {
-    export default function Breakfast({name,image,price,id,weight}) {
+import React,{useContext} from 'react';
+import CartContext from '../../context/CartContext';
+import styles from '../../style/Breakfast.module.css'
+
+
+    export default function Breakfast({name,image,price,id,weight,countInStock}) {
+     
+    
+        let {addToCart}=useContext(CartContext);
+
+        let handleClick = () => {
+            addToCart(id, name,price, image,countInStock)
+        }
 
     return (
         <div className={styles.breakfastprod}>
@@ -23,7 +32,7 @@ import styles from '../style/Breakfast.module.css'
             </div>
 
             <div className={styles.breakbtn}>
-                <button>Add+</button>
+                <button onClick={handleClick}>Add+</button>
             </div>
 
         </div >)

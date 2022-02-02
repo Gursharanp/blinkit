@@ -1,7 +1,14 @@
-import React from 'react';
-import styles from '../style/Fruits.module.css'
-export default function Fruits({name,image,price,id,weight}) {
-  return (
+import React,{useContext} from 'react';
+import CartContext from '../../context/CartContext';
+import styles from '../../style/Fruits.module.css'
+export default function Fruits({name,image,price,id,weight,countInStock}) {
+ 
+    let {addToCart}=useContext(CartContext);
+
+    let handleClick = () => {
+        addToCart(id, name,price, image,countInStock)
+    }
+    return (
   <div className={styles.breakfastprod}>
   <div className={styles.headerbreakfast}>
        <img className='breakfatimg'
@@ -21,7 +28,7 @@ export default function Fruits({name,image,price,id,weight}) {
   </div>
 
   <div className={styles.breakbtn}>
-      <button>Add+</button>
+      <button onClick={handleClick}>Add+</button>
   </div>
 
 </div >

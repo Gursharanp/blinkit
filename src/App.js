@@ -1,22 +1,28 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './style/App.css';
-import Login from './components/Login';
-import Home from './components/Home';
-import CreateAccount from './components/CreateAccount';
+import ContextWrapper from './context/ContextWrapper';
+import Login from './components/LoginItems/Login';
+import CartPage from './components/CartItem/CartPage';
+import Home from './components/HomeItems/Home';
+import CreateAccount from './components/LoginItems/CreateAccount';
+import FruitsSing from './components/FruitItemsSinglepage/FruitsSing';
+import ContentFruitsSing from './components/FruitItemsSinglepage/ContentFruitSing';
 function App() {
   return (
-    <div className="App">
+    <ContextWrapper>
       <Router>
-      
-        <Routes>
-          {/* <Route path="/" element={<Header />}/> */}
-          <Route path="/" element={<Home/>}/>
-          <Route path="/login" element={<Login/> }  />
-          <Route path="/CreateAccount" element={<CreateAccount/>}/>
-        </Routes>
+        <div className="App">
+          <Routes>
+            {/* <Route path="/" element={<Header />}/> */}
+            <Route path="/" element={<Home />} />
+            <Route path="/FruitsSing" element={<ContentFruitsSing/>}/>
+            <Route path="/login" element={<Login />} />
+            <Route path="/CreateAccount" element={<CreateAccount />} />
+            <Route path="/CartPage" element={<CartPage/>}/>
+          </Routes>
+        </div>
       </Router>
-         
-    </div>
+    </ContextWrapper>
   );
 }
 
